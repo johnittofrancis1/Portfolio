@@ -391,10 +391,10 @@ a
     position: absolute;
     border: 2px solid rgb(100, 254, 218);
     border-radius: 5%;
-    top: 6%;
-    right: -8%;
-    width: 100%;
-    height: 100%;
+    top: 12%;
+    left: 5%;
+    width: 85%;
+    height: 95%;
     z-index: -1;
 }
 
@@ -517,42 +517,36 @@ a
 
 .prog-language
 {
+    font-size: 3vmin;
     background-color:  rgb(10, 25, 47);
     color: #8892b0;
-    margin-left: 2vw;
-    margin-bottom: 3vh;
-    padding-left: 2.5vmin;
-    padding-right: 2.5vmin;
-    padding-bottom: 1vmin;
-    padding-top: 1vmin;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    padding: 1vh 2.5vw;
     border: 0.2vmin solid rgb(102, 0, 255);
     border-radius: 1vmin;
 }
 
 .framework
 {
+    font-size: 3vmin;
     background-color:  rgb(10, 25, 47);
     color: #8892b0;
-    margin-left: 2vw;
-    margin-bottom: 3vh;
-    padding-left: 2.5vmin;
-    padding-right: 2.5vmin;
-    padding-bottom: 1vmin;
-    padding-top: 1vmin;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    padding: 1vh 2.5vw;
     border: 0.2vmin solid rgb(188, 19, 254);
     border-radius: 1vmin;
 }
 
 .tech
 {
+    font-size: 3vmin;
     background-color:  rgb(10, 25, 47);
     color: #8892b0;
-    margin-left: 2vw;
-    margin-bottom: 3vh;
-    padding-left: 2.5vmin;
-    padding-right: 2.5vmin;
-    padding-bottom: 1vmin;
-    padding-top: 1vmin;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    padding: 1vh 2.5vw;
     border: 0.2vmin solid rgb(254, 1, 154);
     border-radius: 1vmin;
 }
@@ -561,6 +555,20 @@ a
 {
     color: rgb(100, 254, 218);
     background-color: rgb(10, 35, 47);
+}
+
+#training-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.training
+{
+    width: 50%;
+    margin-bottom: 4vh;
 }
 
 /* body{

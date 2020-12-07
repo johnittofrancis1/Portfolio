@@ -76,7 +76,7 @@ class NavBar extends React.Component
                     )} /> 
                 </nav>
                         { this.state.mobileNavOpen && <div style={{width: '100vw', height: '100vh', position: 'fixed',
-                         top:0, left:0, right:0, bottom:0, backdropFilter: 'blur(1px)', zIndex: 3}}></div> }
+                         top:0, left:0, right:0, bottom:0, backdropFilter: 'blur(5px)', zIndex: 3}}></div> }
 
             </header>
         );

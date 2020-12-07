@@ -3,6 +3,7 @@ import React from 'react';
 import Courses from './Courses';
 import Education from './Education';
 import Skills from './Skills';
+import Training from './Training';
 
 class CurriculumVitae extends React.Component
 {
@@ -26,7 +27,7 @@ class CurriculumVitae extends React.Component
             case "Skills":
                 return <Skills />
             case "Training":
-                return <Education />
+                return <Training />
             default:
                 return <Education />
         }
