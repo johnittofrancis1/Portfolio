@@ -25,7 +25,6 @@ class NavBar extends React.Component
             } else {
                 this.setState({appear: false});
             }
-            console.log(currentScrollPos+ " " + prevScrollpos);
             prevScrollpos = currentScrollPos;
         }
     }

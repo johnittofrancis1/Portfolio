@@ -2,6 +2,7 @@ import React from 'react';
 
 import Home from './Home';
 import About from './About';
+import CurriculumVitae from './CurriculumVitae';
 
 class Content extends React.Component
 {
@@ -11,6 +12,7 @@ class Content extends React.Component
             <div className="content">
                 <Home />
                 <About />
+                <CurriculumVitae />
             </div>
         );
     }
