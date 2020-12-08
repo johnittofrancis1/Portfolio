@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b541b91e.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a1d006c7.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a1d006c7.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.c3f7723f.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a43ca84f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a43ca84f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.1f41ea14.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1f41ea14.js.map",
-    "static/js/2.2d046fb6.chunk.js": "/Portfolio/static/js/2.2d046fb6.chunk.js",
-    "static/js/2.2d046fb6.chunk.js.map": "/Portfolio/static/js/2.2d046fb6.chunk.js.map",
+    "static/js/2.511d7341.chunk.js": "/Portfolio/static/js/2.511d7341.chunk.js",
+    "static/js/2.511d7341.chunk.js.map": "/Portfolio/static/js/2.511d7341.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.c53b1d255a1155a48776232bc5e4ea39.js": "/Portfolio/precache-manifest.c53b1d255a1155a48776232bc5e4ea39.js",
+    "precache-manifest.f468358907ff7a284285585bfb44cf24.js": "/Portfolio/precache-manifest.f468358907ff7a284285585bfb44cf24.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.b541b91e.chunk.css.map": "/Portfolio/static/css/main.b541b91e.chunk.css.map",
-    "static/js/2.2d046fb6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2d046fb6.chunk.js.LICENSE.txt",
+    "static/css/main.c3f7723f.chunk.css.map": "/Portfolio/static/css/main.c3f7723f.chunk.css.map",
+    "static/js/2.511d7341.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.511d7341.chunk.js.LICENSE.txt",
     "static/media/CMS.png": "/Portfolio/static/media/CMS.83b10b73.png",
     "static/media/LP.svg": "/Portfolio/static/media/LP.d614db3a.svg",
     "static/media/Monopoly.png": "/Portfolio/static/media/Monopoly.3ecfc43f.png",
     "static/media/PCI.png": "/Portfolio/static/media/PCI.91a9f272.png",
+    "static/media/deeplearning.svg": "/Portfolio/static/media/deeplearning.3941c07f.svg",
     "static/media/github.svg": "/Portfolio/static/media/github.abfbe2cf.svg",
     "static/media/instagram.svg": "/Portfolio/static/media/instagram.ba5c52a0.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.ac39fe0e.svg",
     "static/media/logo.svg": "/Portfolio/static/media/logo.5726d5ec.svg",
+    "static/media/michigan.svg": "/Portfolio/static/media/michigan.86115066.svg",
     "static/media/passport.jpg": "/Portfolio/static/media/passport.a0b4c394.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1f41ea14.js",
-    "static/js/2.2d046fb6.chunk.js",
-    "static/css/main.b541b91e.chunk.css",
-    "static/js/main.a1d006c7.chunk.js"
+    "static/js/2.511d7341.chunk.js",
+    "static/css/main.c3f7723f.chunk.css",
+    "static/js/main.a43ca84f.chunk.js"
   ]
 }
