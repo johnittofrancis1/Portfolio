@@ -13,7 +13,7 @@ class Home extends React.Component
                     I am focused primarily on Backend work but also interested in Mobile Application Development, Machine Learning and Computer Vision.
                 </p>
                 <a href="mailto:johnittofrancis46@gmail.com">
-                    <button className="btn btn-large">Get in Touch</button>
+                    <button className="btn large">Get in Touch</button>
                 </a>
             </div>
         );

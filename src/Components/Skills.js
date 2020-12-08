@@ -26,13 +26,13 @@ class Skills extends React.Component
     }
 
     renderSkillsList = () => { 
-        return this.state.skills.map(skill => (<div className={skill.type} > { skill.name } </div>)); 
+        return this.state.skills.map((skill, i) => (<div key={i} className={skill.type} > { skill.name } </div>)); 
     }
 
     render()
     {
         return (
-            <div class="tab-content" id="skills">
+            <div className="tab-content" id="skills">
                 <div id="skills-body">
                     { this.renderSkillsList() }
                 </div>

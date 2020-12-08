@@ -15,7 +15,7 @@ class CurriculumVitae extends React.Component
     activeOrNot = (name) => this.state.activeContent === name ? "active": "";
 
     renderTabList = () => {
-        return this.state.tabList.map(name => <li className={`tab-btn ${this.activeOrNot(name)}`} onClick={() => this.setState({activeContent: name})} >{ name }</li>)
+        return this.state.tabList.map((name, i) => <li key={i} className={`tab-btn ${this.activeOrNot(name)}`} onClick={() => this.setState({activeContent: name})} >{ name }</li>)
     }
 
     renderContent = () => {
@@ -38,7 +38,7 @@ class CurriculumVitae extends React.Component
         return (
             <div id="cv">
                 <div className="section-header" >
-                    <div style={{marginRight: '2vw'}} className="heading-mid text-whitesmoke"><span className="text-neon">02. </span>Curriculum Vitae</div>
+                    <div className="heading-mid text-whitesmoke"><span className="text-neon">02. </span>Curriculum Vitae</div>
                     <div className="horizontal-line"></div>
                 </div>
                 <ul className="tabs">

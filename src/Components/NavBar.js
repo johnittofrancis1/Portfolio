@@ -8,7 +8,7 @@ class NavBar extends React.Component
         navList: ["About", "Curriculum Vitae", "Work+Fun", "Contact"],
         mobileNavOpen: false,
         appear: true,
-        shadow: false
+        nonZeroState: false
     }
 
     componentDidMount()
@@ -17,9 +17,9 @@ class NavBar extends React.Component
         window.onscroll = () => {
             var currentScrollPos = window.pageYOffset;
             if(currentScrollPos === 0)
-                this.setState({shadow: false});
+                this.setState({nonZeroState: false});
             else
-                this.setState({shadow: true});
+                this.setState({nonZeroState: true});
             if (prevScrollpos > currentScrollPos) {
                 this.setState({appear: true});
             } else {
@@ -50,7 +50,7 @@ class NavBar extends React.Component
     render()
     {
         return (
-            <header className={`${this.state.appear ? "nav-appear": "nav-hide"} ${this.state.shadow ? "shadow" : ""}`} >
+            <header className={`${this.state.appear ? "appear": "hide"} ${this.state.nonZeroState ? "non-zero-state" : ""}`} >
                 <nav className="nav-bar" >
                     <a className="logo" href="home" >
                         <ReactSVG src={require("../svgs/logo.svg")} alt="logo" />
@@ -70,7 +70,7 @@ class NavBar extends React.Component
                             </div> 
                             <div className={`vertical-menu ${this.state.mobileNavOpen ? "appear": "hide"}`}>
                                 { this.renderNavList() }
-                                <button className="nav-item btn btn-large">Resume</button>
+                                <button className="nav-item btn large">Resume</button>
                             </div>
                         </Fragment>
                     )} /> 

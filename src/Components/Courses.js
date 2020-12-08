@@ -6,19 +6,19 @@ class Courses extends React.Component
     render()
     {
         return (
-            <div class="tab-content" id="courses">
+            <div className="tab-content" id="courses">
                 <div id="courses-columns">
-                    <div class="courses-column">
-                        <div class="course">
+                    <div className="courses-column">
+                        <div className="course">
                             <ReactSVG beforeInjection={svg => svg.classList.add("course-logo")} src={require("../svgs/LP.svg")} />                          
-                            <div class="course-body">
-                                <div class="heading-small text-whitesmoke">Java Programming MasterClass</div>
-                                <div class="text-small text-neon text-italic">@ Learn Programming</div>
+                            <div className="course-body">
+                                <div className="heading-small text-whitesmoke">Java Programming MasterClass</div>
+                                <div className="text-small text-neon text-italic">@ Learn Programming</div>
                             </div>
                         </div>
 
-                        <div class="course">
-                            <svg class="course-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+                        <div className="course">
+                            <svg className="course-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
                                 <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
                                 stroke="none">
                                     <path d="M4755 9894 c-474 -38 -877 -118 -1289 -255 -1271 -423 -2327 -1341
@@ -52,14 +52,14 @@ class Courses extends React.Component
                                         100 292 177 438 203 90 17 322 6 408 -19z"/>
                                 </g>
                             </svg>
-                            <div class="course-body">
-                                <div class="heading-small text-whitesmoke">Deep Learning Specialization</div>
-                                <div class="text-small text-neon text-italic">@ deeplearning.ai</div>
+                            <div className="course-body">
+                                <div className="heading-small text-whitesmoke">Deep Learning Specialization</div>
+                                <div className="text-small text-neon text-italic">@ deeplearning.ai</div>
                             </div>
                         </div>
 
-                        <div class="course">
-                            <svg class="course-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+                        <div className="course">
+                            <svg className="course-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
                                 <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
                                 stroke="none">
                                     <path d="M4755 9894 c-474 -38 -877 -118 -1289 -255 -1271 -423 -2327 -1341
@@ -93,17 +93,17 @@ class Courses extends React.Component
                                         100 292 177 438 203 90 17 322 6 408 -19z"/>
                                 </g>
                             </svg>
-                            <div class="course-body">
-                                <div class="heading-small text-whitesmoke">Tensorflow Developer</div>
-                                <div class="text-small text-neon text-italic">@ deeplearning.ai</div>
+                            <div className="course-body">
+                                <div className="heading-small text-whitesmoke">Tensorflow Developer</div>
+                                <div className="text-small text-neon text-italic">@ deeplearning.ai</div>
                             </div>
                         </div>
                         
                     </div>
 
-                    <div class="courses-column">
-                        <div class="course">
-                            <svg class="course-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+                    <div className="courses-column">
+                        <div className="course">
+                            <svg className="course-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
                                 <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
                                 stroke="none">
                                     <path d="M4755 9894 c-474 -38 -877 -118 -1289 -255 -1271 -423 -2327 -1341
@@ -137,14 +137,14 @@ class Courses extends React.Component
                                         100 292 177 438 203 90 17 322 6 408 -19z"/>
                                 </g>
                             </svg>
-                            <div class="course-body">
-                                <div class="heading-small text-whitesmoke">NLP Specialization</div>
-                                <div class="text-small text-neon text-italic">@ deeplearning.ai</div>
+                            <div className="course-body">
+                                <div className="heading-small text-whitesmoke">NLP Specialization</div>
+                                <div className="text-small text-neon text-italic">@ deeplearning.ai</div>
                             </div>
                         </div>
 
-                        <div class="course">
-                            <svg class="course-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 501.000000 299.000000" preserveAspectRatio="xMidYMid meet">
+                        <div className="course">
+                            <svg className="course-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 501.000000 299.000000" preserveAspectRatio="xMidYMid meet">
                                 <g transform="translate(0.000000,299.000000) scale(0.100000,-0.100000)" stroke="none">
                                     <path d="M539 2956 c-2 -2 -3 -162 -1 -355 l3 -351 114 0 115 0 0 -185 0 -185
                                     -370 0 -370 0 0 -380 0 -380 373 -2 372 -3 3 -187 2 -188 -150 0 -150 0 0
@@ -200,9 +200,9 @@ class Courses extends React.Component
                                     -95 -7 -94 -5 0 -46 43 -93 94 -81 90 -87 94 -127 94 -24 1 -43 -1 -43 -4z"/>
                                 </g>
                             </svg>
-                            <div class="course-body">
-                                <div class="heading-small text-whitesmoke">DataScience Specialization</div>
-                                <div class="text-small text-neon text-italic">@ University of Michigan</div>
+                            <div className="course-body">
+                                <div className="heading-small text-whitesmoke">DataScience Specialization</div>
+                                <div className="text-small text-neon text-italic">@ University of Michigan</div>
                             </div>
                         </div>
                     </div>

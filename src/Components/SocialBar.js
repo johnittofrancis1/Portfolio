@@ -6,8 +6,7 @@ class SocialBar extends React.Component
     render()
     {
         return (
-            <div className="social-bar">
-                <ul className="icons">
+            <ul className={`social-bar ${this.props.mobile ? "mobile": ""}`}>
                     <li>
                         <a href="https://www.instagram.com/johnittofrancis/" target="blank">
                             <ReactSVG beforeInjection={svg => svg.classList.add("social-icons")} src={require("../svgs/instagram.svg")} />
@@ -23,9 +22,10 @@ class SocialBar extends React.Component
                             <ReactSVG beforeInjection={svg => svg.classList.add("social-icons")} src={require("../svgs/github.svg")} />
                         </a>
                     </li>
+                    {
+                        (! this.props.mobile) && <li style={{bottom: '0vh', position: 'fixed', left: '5vw'}} className="vertical-line"></li>
+                    }
                 </ul>
-                <div style={{bottom: '0vh', position: 'fixed', left: '5vw'}} className="vertical-line"></div>
-            </div>
         );
     }
 }
