@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05ca5040ff547daf0b61b8d170fa1438",
+    "revision": "940af2e81f848861b0ef4806728563e0",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "1763ef1a75d2b586bbc1",
+    "revision": "255bb888d538810e6d50",
     "url": "/Portfolio/static/css/main.f65c8c2a.chunk.css"
   },
   {
-    "revision": "29b06f3f8f0aa58212f8",
-    "url": "/Portfolio/static/js/2.2a88bf38.chunk.js"
+    "revision": "84f12fa4dde71c0cb277",
+    "url": "/Portfolio/static/js/2.511d7341.chunk.js"
   },
   {
     "revision": "2c598234c7a24970b5fdf032f602e7bc",
-    "url": "/Portfolio/static/js/2.2a88bf38.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.511d7341.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1763ef1a75d2b586bbc1",
-    "url": "/Portfolio/static/js/main.974704b1.chunk.js"
+    "revision": "255bb888d538810e6d50",
+    "url": "/Portfolio/static/js/main.09e27442.chunk.js"
   },
   {
     "revision": "b1a3c70ba09b1e5eaab9",
@@ -25,7 +25,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "83b10b7339a15668f92a6ae5dca90f83",
-    "url": "/Portfolio/static/media/CMS.83b10b73.png"
+    "url": "/Portfolio/static/media/Blogger.83b10b73.png"
   },
   {
     "revision": "d614db3a826a48d148d9cd1df2048d81",
@@ -36,8 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Monopoly.3ecfc43f.png"
   },
   {
-    "revision": "91a9f272c0fc1143ba33c7836912d62b",
-    "url": "/Portfolio/static/media/PCI.91a9f272.png"
+    "revision": "9e48c3dbaf4008798cfac6b247504dc3",
+    "url": "/Portfolio/static/media/PCI.9e48c3db.png"
+  },
+  {
+    "revision": "99f44efc37dc03f98158b7be62d3a2c4",
+    "url": "/Portfolio/static/media/Streamy.99f44efc.png"
+  },
+  {
+    "revision": "3a225cc97228fb60dbf5038904339a91",
+    "url": "/Portfolio/static/media/TapMove.3a225cc9.png"
   },
   {
     "revision": "3941c07f2fe8df5a647259eec0dffe22",
