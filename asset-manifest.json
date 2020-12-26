@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f65c8c2a.chunk.css",
-    "main.js": "/Portfolio/static/js/main.09e27442.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.09e27442.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.60c53178.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a28a49cb.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a28a49cb.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.1f41ea14.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1f41ea14.js.map",
-    "static/js/2.511d7341.chunk.js": "/Portfolio/static/js/2.511d7341.chunk.js",
-    "static/js/2.511d7341.chunk.js.map": "/Portfolio/static/js/2.511d7341.chunk.js.map",
+    "static/js/2.2a88bf38.chunk.js": "/Portfolio/static/js/2.2a88bf38.chunk.js",
+    "static/js/2.2a88bf38.chunk.js.map": "/Portfolio/static/js/2.2a88bf38.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.efdc6a69f3a175183265e80cac3ac133.js": "/Portfolio/precache-manifest.efdc6a69f3a175183265e80cac3ac133.js",
+    "precache-manifest.e8a59ffe428caa43709b95556f14125f.js": "/Portfolio/precache-manifest.e8a59ffe428caa43709b95556f14125f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.f65c8c2a.chunk.css.map": "/Portfolio/static/css/main.f65c8c2a.chunk.css.map",
-    "static/js/2.511d7341.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.511d7341.chunk.js.LICENSE.txt",
+    "static/css/main.60c53178.chunk.css.map": "/Portfolio/static/css/main.60c53178.chunk.css.map",
+    "static/js/2.2a88bf38.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2a88bf38.chunk.js.LICENSE.txt",
     "static/media/Blogger.png": "/Portfolio/static/media/Blogger.83b10b73.png",
     "static/media/LP.svg": "/Portfolio/static/media/LP.d614db3a.svg",
     "static/media/Monopoly.png": "/Portfolio/static/media/Monopoly.3ecfc43f.png",
@@ -24,12 +24,13 @@
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.ac39fe0e.svg",
     "static/media/logo.svg": "/Portfolio/static/media/logo.4d1346de.svg",
     "static/media/michigan.svg": "/Portfolio/static/media/michigan.86115066.svg",
-    "static/media/passport.jpg": "/Portfolio/static/media/passport.a0b4c394.jpg"
+    "static/media/passport.jpg": "/Portfolio/static/media/passport.a0b4c394.jpg",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.bcb66f99.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.1f41ea14.js",
-    "static/js/2.511d7341.chunk.js",
-    "static/css/main.f65c8c2a.chunk.css",
-    "static/js/main.09e27442.chunk.js"
+    "static/js/2.2a88bf38.chunk.js",
+    "static/css/main.60c53178.chunk.css",
+    "static/js/main.a28a49cb.chunk.js"
   ]
 }
