@@ -8,14 +8,14 @@ import Training from './Training';
 class CurriculumVitae extends React.Component
 {
     state = { 
-        activeContent: "Education",
-        tabList: ["Education", "Courses", "Skills", "Training"]
+        activeContent: "Professional Highlights",
+        tabList: [ "Professional Highlights", "Education", "Courses", "Skills"]
     }
 
     activeOrNot = (name) => this.state.activeContent === name ? "active": "";
 
     renderTabList = () => {
-        return this.state.tabList.map((name, i) => <li key={i} className={`tab-btn ${this.activeOrNot(name)}`} onClick={() => this.setState({activeContent: name})} >{ name }</li>)
+        return this.state.tabList.map((name, i) => <li key={i} className={`tab-btn text-mid ${this.activeOrNot(name)}`} onClick={() => this.setState({activeContent: name})} >{ name }</li>)
     }
 
     renderContent = () => {
@@ -26,7 +26,7 @@ class CurriculumVitae extends React.Component
                 return <Courses />
             case "Skills":
                 return <Skills />
-            case "Training":
+            case "Professional Highlights":
                 return <Training />
             default:
                 return <Education />
@@ -36,7 +36,7 @@ class CurriculumVitae extends React.Component
     render()
     {
         return (
-            <div id="cv">
+            <div id="cv" className='section-mid'>
                 <div className="section-header" >
                     <div className="heading-mid text-whitesmoke"><span className="text-neon">02. </span>Curriculum Vitae</div>
                     <div className="horizontal-line"></div>
