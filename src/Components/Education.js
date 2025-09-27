@@ -16,7 +16,7 @@ class Education extends React.Component
                         <div className="heading-small text-whitesmoke">Chennai</div>
                     </div>
                     <div className="tab-body">
-                        <p className="text-small text-italic text-ash">CGPA: 8.86 (Upto 6<sup>th</sup> Semester)</p>
+                        <p className="text-small text-italic text-ash">CGPA: 8.91</p>
                     </div>
                 </div>
                 <div>

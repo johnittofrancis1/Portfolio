@@ -12,21 +12,20 @@ class About extends React.Component
                 {
                     mobile => {
                         return (
-                            <div id="about">
+                            <div id="About" className='section-mid'>
                                 <div className="section-header">
                                     <div className="heading-mid text-whitesmoke"><span className="text-neon">01. </span>About Me</div>
                                     <div className="horizontal-line"></div>
                                 </div>
                                 <div className={`abt-body ${mobile ? "mobile": ""}`}>
                                     <p id="abt-content" className="text-large text-ash font-sans">
-                                        Hello! I'm Johnitto Francis J, a software engineer based in <span className="text-neon">Chennai, India.</span> <br /><br /> I enjoy developing projects whether that be applications, 
-                                        ML models, websites or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
-                                        I am currently pursuing my <span className="text-neon">Computer Science Engineering</span> from <span className="text-neon">St.Joseph's College of Engineering.</span>
-                                        I am expected to graduate in May, 2021.
-                                    </p>
+                                        I’m a backend engineer at <span className="text-neon">Zoho</span>, working with the <span className="text-neon">IAM</span> team to build secure and reliable systems that people actually depend on. I love diving into complex problems, optimizing performance, and designing APIs and services that just work—smooth, fast, and scalable.
+                                        <br></br>
+                                        Outside work, I’m curious and hands-on—experimenting with projects, exploring new tech, and finding creative ways to make software smarter and easier to use. For me, coding isn’t just lines of code; it’s about building tools and experiences that actually help people.
+                                     </p>
                                     <div id="abt-photo">
                                         <div className="img-frame"></div>
-                                        <ImageWrapper src={require("../images/passport.jpg")} alt="passport" />
+                                        <ImageWrapper width="500" height="520" src={require("../images/passport.jpeg")} alt="passport" />
                                     </div> 
                                 </div>
                             </div>
