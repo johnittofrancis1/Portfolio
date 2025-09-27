@@ -9,17 +9,17 @@ class SocialBar extends React.Component
             <ul className={`social-bar ${this.props.mobile ? "mobile": ""}`}>
                     <li>
                         <a href="https://www.instagram.com/johnittofrancis/" target="blank">
-                            <ReactSVG beforeInjection={svg => svg.classList.add("social-icons")} src={require("../svgs/instagram.svg")} />
+                            <ReactSVG beforeInjection={svg => svg.classList.add("social-icons")} src={require("../svgs/instagram.svg").default} />
                         </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/johnitto-francis-030861157/" target="blank">
-                            <ReactSVG beforeInjection={svg => svg.classList.add("social-icons")} src={require("../svgs/linkedin.svg")} />
+                            <ReactSVG beforeInjection={svg => svg.classList.add("social-icons")} src={require("../svgs/linkedin.svg").default} />
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/johnittofrancis1" target="blank">
-                            <ReactSVG beforeInjection={svg => svg.classList.add("social-icons")} src={require("../svgs/github.svg")} />
+                            <ReactSVG beforeInjection={svg => svg.classList.add("social-icons")} src={require("../svgs/github.svg").default} />
                         </a>
                     </li>
                     {

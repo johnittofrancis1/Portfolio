@@ -5,7 +5,7 @@ import { ReactSVG } from 'react-svg';
 class NavBar extends React.Component
 {
     state = {
-        navList: ["About", "Curriculum Vitae", "Work+Fun", "Contact"],
+        navList: {"About": "about", "Curriculum Vitae": "cv", "Work+Fun": "work", "Contact": "contact"},
         mobileNavOpen: false,
         appear: true,
         nonZeroState: false
@@ -38,9 +38,10 @@ class NavBar extends React.Component
     }
 
     renderNavList = () => {
-        return this.state.navList.map( (item, index) => {
+        return Object.keys(this.state.navList).map( (item, index) => {
+            let elementId = this.state.navList[item];
             return (
-                <a key={index} className={`nav-item ${this.state.mobileNavOpen ? "heading-small": "text-small"}`} href={`#${item}`}>
+                <a key={index} className={`nav-item ${this.state.mobileNavOpen ? "heading-small": "text-small"}`} href={`#${elementId}`}>
                     <span className="text-neon">{("0" + (index+1)).slice(-2)}. </span>{item}
                 </a>
             );
@@ -53,12 +54,12 @@ class NavBar extends React.Component
             <header className={`${this.state.appear ? "appear": "hide"} ${this.state.nonZeroState ? "non-zero-state" : ""}`} >
                 <nav className="nav-bar" >
                     <a className="logo" href="home" >
-                        <ReactSVG src={require("../svgs/logo.svg")} alt="logo" />
+                        <ReactSVG src={require("../svgs/logo.svg").default} alt="logo" />
                     </a>
                     <Media onChange={() => this.setState({mobileNavOpen: false})} query={{minWidth: 801}} render={() => (
                         <div className="menu">
                             {this.renderNavList()}
-                            <button className="nav-item btn">Resume</button>
+                            <button onClick={() => window.open('https://drive.google.com/uc?export=download&id=1d7ev-lfuXYmgmOg3PTQ0zwAi1O_nVpy5', '_blank')} className="nav-item btn text-mid">Resume</button>
                         </div>
                     )} />
                     <Media onChange={() => this.setState({mobileNavOpen: false})} query={{maxWidth: 800}} render={() => (
@@ -70,7 +71,7 @@ class NavBar extends React.Component
                             </div> 
                             <div className={`vertical-menu ${this.state.mobileNavOpen ? "appear": "hide"}`}>
                                 { this.renderNavList() }
-                                <button className="nav-item btn large">Resume</button>
+                                <button onClick={() => window.open('https://drive.google.com/uc?export=download&id=1d7ev-lfuXYmgmOg3PTQ0zwAi1O_nVpy5', '_blank')} className="nav-item btn text-large large">Resume</button>
                             </div>
                         </Fragment>
                     )} /> 

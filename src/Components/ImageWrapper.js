@@ -7,7 +7,7 @@ class ImageWrapper extends React.Component
         return (
             <div className="img-wrapper">
                 <div style={{backgroundColor: this.props.filterColor}} className="filter-neon"></div>
-                <img style={{opacity: this.props.dim ? 0.5: 1}} src={this.props.src} alt={this.props.alt} />
+                <img width={this.props.width} height={this.props.height} style={{opacity: this.props.dim ? 0.5: 1}} src={this.props.src} alt={this.props.alt} />
             </div>
         );
     }
