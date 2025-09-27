@@ -15,13 +15,13 @@ class Footer extends React.Component
                             return (
                                 <footer>
                                     <SocialBar mobile />
-                                    <div id="footer-text">Designed and built by Johnitto Francis</div>
+                                    <div className='text-small' id="footer-text">Designed and built by Johnitto Francis</div>
                                 </footer>
                             );
                         else
                             return (
                                 <footer>
-                                    <div id="footer-text">Designed and built by Johnitto Francis</div>
+                                    <div className='text-small' id="footer-text">Designed and built in React by Johnitto Francis</div>
                                 </footer>
                             );
                     }

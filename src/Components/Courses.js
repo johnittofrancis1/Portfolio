@@ -10,10 +10,10 @@ class Courses extends React.Component
                 <div id="courses-columns">
                     <div className="courses-column">
                         <div className="course">
-                            <ReactSVG beforeInjection={svg => svg.classList.add("course-logo")} src={require("../svgs/LP.svg")} />                          
+                            <ReactSVG beforeInjection={svg => svg.classList.add("course-logo")} src={require("../svgs/LP.svg").default} />                          
                             <div className="course-body">
-                                <div className="heading-small text-whitesmoke">Java Programming MasterClass</div>
-                                <div className="text-small text-neon text-italic">@ Learn Programming</div>
+                                <div className="heading-small text-neon">Java Programming MasterClass</div>
+                                <div className="text-small text-whitesmoke text-italic">built a strong backend foundation; reinforced clean coding practices</div>
                             </div>
                         </div>
 
@@ -53,8 +53,8 @@ class Courses extends React.Component
                                 </g>
                             </svg>
                             <div className="course-body">
-                                <div className="heading-small text-whitesmoke">Deep Learning Specialization</div>
-                                <div className="text-small text-neon text-italic">@ deeplearning.ai</div>
+                                <div className="heading-small text-neon">Deep Learning Specialization</div>
+                                <div className="text-small text-whitesmoke text-italic">honed analytical thinking; explored problem-solving with modern AI techniques.</div>
                             </div>
                         </div>
 
@@ -94,8 +94,8 @@ class Courses extends React.Component
                                 </g>
                             </svg>
                             <div className="course-body">
-                                <div className="heading-small text-whitesmoke">Tensorflow Developer</div>
-                                <div className="text-small text-neon text-italic">@ deeplearning.ai</div>
+                                <div className="heading-small text-neon">Tensorflow Developer</div>
+                                <div className="text-small text-whitesmoke text-italic">got hands-on with real ML projects; learned to implement scalable models.</div>
                             </div>
                         </div>
                         
@@ -138,8 +138,8 @@ class Courses extends React.Component
                                 </g>
                             </svg>
                             <div className="course-body">
-                                <div className="heading-small text-whitesmoke">NLP Specialization</div>
-                                <div className="text-small text-neon text-italic">@ deeplearning.ai</div>
+                                <div className="heading-small text-neon">NLP Specialization</div>
+                                <div className="text-small text-whitesmoke text-italic">dove into language models; improved understanding of structured and unstructured data.</div>
                             </div>
                         </div>
 
@@ -201,8 +201,8 @@ class Courses extends React.Component
                                 </g>
                             </svg>
                             <div className="course-body">
-                                <div className="heading-small text-whitesmoke">DataScience Specialization</div>
-                                <div className="text-small text-neon text-italic">@ University of Michigan</div>
+                                <div className="heading-small text-neon">DataScience Specialization</div>
+                                <div className="text-small text-whitesmoke text-italic">strengthened data handling and analysis; learned to extract actionable insights.</div>
                             </div>
                         </div>
                     </div>
