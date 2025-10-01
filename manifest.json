@@ -1,6 +1,6 @@
 {
   "short_name": "Johnitto Francis",
-  "name": "Johnitto Francis",
+  "name": "Johnitto Francis - PortFolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -16,15 +16,10 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
-    },
-    {
-      "src": "logo1080.png",
-      "type": "image/png",
-      "sizes": "1080x1080"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#0a192f",
-  "background_color": "#020c1b"
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
