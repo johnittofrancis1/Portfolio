@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6ee9b061.css",
+    "main.css": "/Portfolio/static/css/main.6b2e4cb7.css",
     "main.js": "/Portfolio/static/js/main.83a83d6f.js",
     "static/media/PCI.png": "/Portfolio/static/media/PCI.24223c356e10e9ff3150.png",
     "static/media/Monopoly.png": "/Portfolio/static/media/Monopoly.3c9b99118a0eb5aa615a.png",
@@ -11,11 +11,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/logo.svg": "/Portfolio/static/media/logo.89b6b66d273d639c4a18da9492039ce7.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.beb236c0b8558ae80c675bc7e6e5f95d.svg",
-    "main.6ee9b061.css.map": "/Portfolio/static/css/main.6ee9b061.css.map",
+    "main.6b2e4cb7.css.map": "/Portfolio/static/css/main.6b2e4cb7.css.map",
     "main.83a83d6f.js.map": "/Portfolio/static/js/main.83a83d6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ee9b061.css",
+    "static/css/main.6b2e4cb7.css",
     "static/js/main.83a83d6f.js"
   ]
 }
